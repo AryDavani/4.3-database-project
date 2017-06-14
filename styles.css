@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: rgb(255, 229, 179);
+  padding: 1%;
+
+}
+
+.customers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.users {
+flex: 1 1 20%;
+margin: 1%;
+}
+
+.picture {
+  width: 100%;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.email {
+  text-transform: uppercase;
+  color: gray;
+}
