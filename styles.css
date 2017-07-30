@@ -42,9 +42,10 @@ margin: 1%;
 p {
   text-align: center;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .email {
-  text-transform: uppercase;
   color: gray;
+
 }
